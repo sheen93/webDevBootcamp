@@ -1,0 +1,66 @@
+/* *{
+    background-color: white;
+} */
+
+button{
+    font-size: 30px;
+    background-color: bisque;
+}
+
+h1,h2{
+    color: darkslategray;
+}
+
+#signup{
+    background-color: rosybrown;
+    color: bisque;
+}
+
+span{
+    color: red;
+}
+
+.tag{  /* To make changes to a class of items */
+    background-color: cornflowerblue;
+    color:wheat;
+    font-size: medium;
+}
+
+.post a{
+    color:violet;
+}
+
+section.toast{
+    background-color: bisque;
+}
+
+li a{
+    color: brown;
+}
+
+input + button {
+    background-color: pink;
+}
+
+h2+button{
+    font-size: 20px;
+    background-color: magenta;
+}
+
+footer > a {
+    color:  red;
+    background-color: turquoise;
+}
+
+input[type="password"]{
+    color: red;
+}
+
+section[class="post"] {
+    background-color: aqua ;
+}
+
+a[href*="google"]{
+    background-color: black;
+    color: white;
+}
