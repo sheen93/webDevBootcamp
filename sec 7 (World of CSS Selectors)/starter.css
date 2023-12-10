@@ -2,65 +2,102 @@
     background-color: white;
 } */
 
-button{
+button {
     font-size: 30px;
     background-color: bisque;
 }
 
-h1,h2{
+h1,
+h2 {
     color: darkslategray;
 }
 
-#signup{
+#signup {
     background-color: rosybrown;
     color: bisque;
 }
 
-span{
+span {
     color: red;
 }
 
-.tag{  /* To make changes to a class of items */
+.tag {
+    /* To make changes to a class of items */
     background-color: cornflowerblue;
-    color:wheat;
+    color: wheat;
     font-size: medium;
 }
 
-.post a{
-    color:violet;
+.post a {
+    color: violet;
+    text-decoration: none;
 }
 
-section.toast{
+section.toast {
     background-color: bisque;
 }
 
-li a{
+li a {
     color: brown;
 }
 
-input + button {
+input+button {
     background-color: pink;
 }
 
-h2+button{
+h2+button {
     font-size: 20px;
     background-color: magenta;
 }
 
-footer > a {
-    color:  red;
+footer>a {
+    color: red;
     background-color: turquoise;
 }
 
-input[type="password"]{
+input[type="password"] {
     color: red;
 }
 
 section[class="post"] {
-    background-color: aqua ;
+    background-color: aqua;
 }
 
-a[href*="google"]{
+a[href*="google"] {
     background-color: black;
     color: white;
+}
+
+button:hover {
+    /*psuedo class */
+    background-color: red;
+}
+
+.post button:hover {
+    /*when you hover over a button in a post*/
+    background-color: blue;
+}
+
+.post button:active {
+    /*buttons inside a post right after being pressed. 
+     Class selector with an element selector with descendent combinator and active psuedo class */
+    background-color: darkgreen;
+}
+
+a:hover {
+    /* anchor tags when hovered over */
+    text-decoration: underline;
+}
+
+input[type="radio"]:checked {
+    box-shadow: 0 0 0 2px hotpink;
+    background-color: red;
+}
+
+input[type="radio"]:hover {
+    box-shadow: 0 0 0 1px rebeccapurple;
+}
+
+.post:nth-of-type(2n) {
+    background-color: #bde0fe;
 }
