@@ -37,4 +37,12 @@ div:hover{
 h1{
     background-color: pink;
     width: 100px;
+    padding-left: 30px; /* Individual padding*/
+    padding-top: 100px;
+}
+
+button{
+    padding: 10px 5px; /*padding: horizontal vertical */
+
+    margin: 5px;
 }
