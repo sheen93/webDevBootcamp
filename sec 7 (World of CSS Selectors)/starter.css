@@ -12,7 +12,7 @@ h2 {
     color: darkslategray;
 }
 
-#signup {
+#signup { /*using specific id for sign up button */
     background-color: rosybrown;
     color: bisque;
 }
@@ -71,12 +71,18 @@ a[href*="google"] {
 button:hover {
     /*psuedo class */
     background-color: red;
+    font-size: 10px;
 }
 
 .post button:hover {
     /*when you hover over a button in a post*/
     background-color: blue;
 }
+
+button:hover{
+    background-color: blueviolet !important; 
+}
+
 
 .post button:active {
     /*buttons inside a post right after being pressed. 
@@ -89,15 +95,35 @@ a:hover {
     text-decoration: underline;
 }
 
-input[type="radio"]:checked {
-    box-shadow: 0 0 0 2px hotpink;
-    background-color: red;
-}
-
 input[type="radio"]:hover {
     box-shadow: 0 0 0 1px rebeccapurple;
 }
 
+input[type="radio"]:checked {
+    box-shadow: 0 0 0 2px rgb(197, 193, 65);
+    background-color: rgb(0, 0, 0);
+}
+
+input[type="checkbox"]:hover {
+    box-shadow: 0 0 0 1px rgb(91, 206, 232);
+}
+
+input[type="checkbox"]:checked {
+    box-shadow: 0 0 0 1px rgb(232, 91, 176);
+}
+
 .post:nth-of-type(2n) {
     background-color: #bde0fe;
+}
+
+h2::first-letter{
+    font-size: 50px;
+}
+
+p::first-line{
+    color: rebeccapurple;
+}
+
+p::selection{
+    background-color: bisque;
 }

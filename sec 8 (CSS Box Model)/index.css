@@ -1,0 +1,40 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: #e5989b;
+}
+
+div:hover{
+    background-color: aqua;
+}
+
+#one{
+    background-color: #f7e1d7;
+    border-width: 1px;
+    border-color: black; /* Color wont show without border style*/
+    border-style: solid;
+    box-sizing: border-box; /*keeps the dimension of the whole box same even with border*/
+    border-radius: 10px;
+}
+
+#two{
+    background-color: #dedbd2;
+    border-color: blueviolet;
+    border-style: dashed;
+    border-right-width: 2px;
+    border-left-width: 4px;
+    box-sizing: border-box;
+    border-radius: 10% 20% 40% 50%;
+}
+
+#three{
+    background-color: #edafb8;
+    border: 3px dotted black; /* shortcut border: width style color*/
+    border-right: 4px solid turquoise;
+    box-sizing: border-box;
+}
+
+h1{
+    background-color: pink;
+    width: 100px;
+}
