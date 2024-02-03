@@ -10,8 +10,26 @@ div{
     width: 50%;
 }
 
-h1{
+/* h1{
     font-size: 40px;
     border: 1px solid black;
     line-height:200%;
+} */
+article{
+    font-size: 30px;
+}
+h2{
+ font-size: 2em;
+ border: 0.5em solid black;
+}
+
+p{
+    font-size: 0.5em;
+}
+
+button{
+    background-color: aquamarine;
+    font-size: 90px;
+    border-radius: 0.5em;
+    margin: 10px;
 }
